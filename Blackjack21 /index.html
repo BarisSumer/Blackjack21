@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack 21</title>
+</head>
+<body onload="loadPage()" oncontextmenu="return false" >
+
+   
+        <div class="container" id="imgDiv">
+            <img src="chip/chip-50-1.png" id="chip50" alt="">
+            <img src="chip/chip-100.png" id="chip100" alt="">
+            <img src="chip/chip-20-4.png" id="chip20" alt="">
+        </div>
+    
+        <div class="container" id="totalBetText">
+            
+        </div>
+
+
+    
+
+    
+    <div class="container" id="deleteDeal">
+        <div id="pc">
+            <div id="cardsPc" class="container remove">  
+            </div>
+            <div id="cardPcValue" class="container value">
+
+            </div>
+            <div class="container" id="buttonsDiv">
+                <button id="getCardButton" class="button-43" onclick="getCard()">HIT</button>
+                <button id="standButton" class="button-44" onclick="stand()" >STAND</button>
+                <button id="restartGame" class="button-45" onclick="restartGame()">PLAY AGAIN</button>
+            </div>
+            <div id="cardsUser" class="container remove1">
+            </div>
+            <div id="cardUserValue" class=" container value">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="betText">
+        
+    </div>
+
+    <div class="buttonStyle container">
+        <button class="button-32" id="dealButton" onclick="dealButtonFunction()">DEAL</button>
+        <button class="button-32" id = "cancelButton" onclick="cancelDeal()"> CANCEL</button>
+        <button class="button-32" id="allBet">ALL BET</button>
+        <button class="button-32" id="quitButton">QUIT</button>
+    </div>
+
+ 
+
+   
+   
+
+ 
+
+
+
+   
+   
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

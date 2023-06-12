@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url("bj-background-main-3.jpeg");
+   background-size: cover;
+   background-position: center; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+img{
+    width: 180px;
+    margin: 20px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+}
+
+#totalBetText{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+#betText{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.value{
+    font-size: 20px;
+    color: white;
+    margin: 5px;  
+}
+
+
+.buttonStyle button{
+    margin-top: 30px;
+}
+
+
+
+
+
+.button-32 {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 125px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+
+
+
+
+
+.button-43 {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100px;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+.button-43:not(:disabled):hover,
+.button-43:not(:disabled):focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-43:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+  }
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
+  }
+}
+
+
+.button-44 {
+    background-image: linear-gradient(-180deg, #d58a5f 0%, #eaa16e 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 100px;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-44:hover {
+    background-image: linear-gradient(-180deg, #ec8a34 0%, #ee6d04 100%);
+  }
+
+.button-44:not(:disabled):hover,
+.button-44:not(:disabled):focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-44:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+  }
+  
+  @media (min-width: 768px) {
+    .button-44 {
+      padding: 1rem 2rem;
+    }
+  }
+
+
+  .button-45 {
+    background-image: linear-gradient(-180deg, #d0a2dd 0%, #ce63d8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-45:hover {
+    background-image: linear-gradient(-180deg, #844d99 0%, #4a175e 100%);
+  }
+
+.button-45:not(:disabled):hover,
+.button-45:not(:disabled):focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-45:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+  }
+  
+  @media (min-width: 768px) {
+    .button-45 {
+      padding: 1rem 2rem;
+    }
+  }
+
+
+#cardUserValue{
+    margin-bottom: 20px;
+}
+
+
+
+
+

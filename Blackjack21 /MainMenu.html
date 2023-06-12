@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="MainMenu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Main Menu</title>
+</head>
+<body>
+    <div class="bg container">
+        <img src="bj-background-main.jpeg" alt="">
+    </div>
+   
+    <div class="container1">
+            <h2>Oyun Nasıl Oynanır</h2>
+            <p>Oyuna 1000 oyun chipi ile başlarsın.</p>
+            <p>Her tur başı çiplerin üzerine gelip fareye sol tıklayarak ya da ALL BET butonuna basarak bahis alıyorsunuz.</p>
+            <p>Aldığınızı bahsi çiplerin üzerine gelip fareye sağ tık yaparak iptal edebilirsiniz ya da CANCEL butonuna basarak bütün bahsi iptal edebilirsiniz.</p>
+            <p>Bahis aldıktan sonra DEAL butonu ile turu başlatabilirsiniz.</p>
+            <p>QUIT butonu ana menüye tekrar dönmenizi sağlar.</p>
+            <p>Oyun başladıktan sonra toplam paranız bitene kadar devam edebilirsiniz.</p>
+            <h2>Amaç</h2>
+            <p>Elindeki kartların değerleri toplamı kasadan daha fazla olmalı ve 21'i geçmemelidir.</p>
+            <h2>Puanlama</h2>
+            <p>Eliniz kasa ile aynı ise : Ortaya koyduğun bahis verilir.</p>
+            <p>Eliniz kasadan büyük ise ve 21'i geçmemişse : Ortaya koyduğun bahisin 2 katı kazanırsın.</p>
+            <p>Eliniz 21'i geçmemişse ve kasa 21'i geçmiş ise : Ortaya koyduğun bahisin 2 katı kazanırsın.</p>
+            <p>Elinizde BlackJack var ise : Ortaya koyduğun bahisin 2.5 katı kazanırsın. </p>
+            <p>Diğer durumlarda : Ortaya koyduğunuz bahsi kaybedersiniz.</p>
+    </div>
+
+    </div>
+    <div class="container">
+        <form id = "myForm" onsubmit="return false">
+           
+            <button onclick="readyGame()" id="startGame">Game Start</button>
+        </form>   
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
